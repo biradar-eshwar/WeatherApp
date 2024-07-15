@@ -1,0 +1,107 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    border: 2px solid red;
+    height: 300px;
+    width: 20%;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(143, 148, 148);
+    
+}
+h1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#inputcity{
+    padding-left: 10px;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#getwether{
+    border: 2px solid black;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+} 
+
+
+  */
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Section styles */
+section {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-image: url("https://media.istockphoto.com/id/668658580/photo/blue-sky.jpg?s=612x612&w=0&k=20&c=osfYWc4IUULmE9ZovDyk1NwQnqoawDqH5Z-phjzUxGI=");
+}
+
+/* Heading styles */
+h1 {
+
+    font-size: 28px;
+    color: #333;
+}
+
+/* Input and button styles */
+input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 80px); /* Adjust based on button width */
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Result area styles */
+#cityname {
+    margin-top: 20px;
+    font-size: 24px;
+    
+}
+
+#temp, #describtion {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #666;
+}
